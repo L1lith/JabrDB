@@ -1,0 +1,15 @@
+node_modules/
+/test.js
+/source/
+/old-source/
+/dist/
+!/dist/Jabr.js
+!/dist/Jabr.js.map
+/dist/Jabr.modern.js
+/dist/Jabr.module.js
+/dist/Jabr.umd.js
+/dist/Jabr.modern.js.map
+/dist/Jabr.module.js.map
+/dist/Jabr.umd.js.map
+/tests/
+prettier.config.js

@@ -1,0 +1,38 @@
+{
+  "name": "jabr-db",
+  "version": "0.0.1",
+  "description": "Live network syncing for JSON with Jabr",
+  "source": "source/index.js",
+  "main": "dist/JabrDB.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "mocha \"tests/allTests/**/*.js\"",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L1lith/Jabr.git"
+  },
+  "keywords": [
+    "state",
+    "react",
+    "data",
+    "management",
+    "proxy",
+    "json"
+  ],
+  "author": "L1lith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/L1lith/Jabr/issues"
+  },
+  "homepage": "https://github.com/L1lith/Jabr#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  },
+  "dependencies": {
+    "jabr": "^0.2.1"
+  },
+  "optionalDependencies": {}
+}
